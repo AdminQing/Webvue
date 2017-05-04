@@ -11,12 +11,3 @@
 		</nav>
 	</div>
 </template>
-
-<style lang="scss">
-$background : blue;
-	.m-index{
-		height: 100%;
-		width: 100%;
-		background: $background;
-	}
-</style>

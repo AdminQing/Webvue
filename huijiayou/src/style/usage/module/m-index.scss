@@ -1,0 +1,17 @@
+.m-index{
+	height: 100%;
+	@include flexbox();  //设置弹性盒 display：flex
+	@include flex-direction(column); //设置主轴方向
+	header{
+		height: 44px;
+		background: red;
+	}
+	section{
+		@include flex(1);  //flex:1;
+		background: gray;
+	}
+	nav{
+		height: 44px;
+		background: yellow; 
+	}
+}
