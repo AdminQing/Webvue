@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /***设置默认/弹性盒***/
 @import "./usage/core/reset";
+/****yo-icon****/
+@import "./usage/module/m-common.scss";
 /***页面布局整体样式****/
 @import "./usage/module/m-index.scss";
+/***board首页**/
+@import "./usage/module/m-board.scss";
+

@@ -1,13 +1,35 @@
 <template>
 	<div class="m-index">
-		<header>
-			awdawdwad
+		<header class="yo-header yo-header-a">
+				<h2 class="title">操作区只有图标的头部</h2>
+				<span class="affirm yo-ico">&#xf07e;</span>
 		</header>
 		<section>
-			
+				<router-view></router-view>
 		</section>
 		<nav>
-			
+			<ul>
+				<router-link tag="li" to="/board" active-class="active" class="yo-ico">
+					<span>&#xe62d;<b>首页</b></span>
+				</router-link>
+				<router-link tag="li" to="/search" active-class="active" class="yo-ico">
+					<span>&#xeb89;<b>鼎善客服</b></span>
+				</router-link>
+				<router-link tag="li" to="/shop" active-class="active" class="yo-ico">
+					<span>&#xec0b;<b>购物车</b></span>
+				</router-link>
+				<router-link tag="li" to="/news" active-class="active" class="yo-ico">
+					<span>&#xe757;<b>新闻资讯</b></span>
+				</router-link>
+				<router-link tag="li" to="/mine" active-class="active" class="yo-ico">
+					<span>&#xe609;<b>我的鼎善</b></span>
+				</router-link>
+				<!-- <li class="yo-ico active">&#xe62d;<b>首页</b></li>
+				<li class="yo-ico">&#xeb89;<b>鼎善客服</b></li>
+				<li class="yo-ico">&#xec0b;<b>购物车</b></li>
+				<li class="yo-ico">&#xe757;<b>新闻资讯</b></li>
+				<li class="yo-ico">&#xe609;<b>我的鼎善</b></li> -->
+			</ul>
 		</nav>
 	</div>
 </template>
