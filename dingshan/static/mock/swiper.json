@@ -1,0 +1,44 @@
+{
+	"lunbo":[
+		{"name":"/static/images/lb1.jpg"},
+		{"name":"/static/images/lb2.jpg"},
+		{"name":"/static/images/lb3.jpg"},
+		{"name":"/static/images/lb4.jpg"},
+		{"name":"/static/images/lb5.jpg"},
+		{"name":"/static/images/lb6.jpg"},
+		{"name":"/static/images/lb7.jpg"},
+		{"name":"/static/images/lb8.jpg"}
+	],
+	"fenleiTop":[
+		{"title":"往期活动","img":"/static/images/fl1.png"},
+		{"title":"入驻商家","img":"/static/images/fl2.png"},
+		{"title":"一邮超市","img":"/static/images/fl3.png"},
+		{"title":"会员中心","img":"/static/images/fl4.png"},
+		{"title":"品牌馆","img":"/static/images/fl5.png"}
+	],
+	"fenleiBottem":[
+		{"title":"仁爱堂","img":"/static/images/fl6.png"},
+		{"title":"鼎善云创","img":"/static/images/fl7.png"},
+		{"title":"生活指南","img":"/static/images/fl8.png"},
+		{"title":"一分抢购","img":"/static/images/fl9.png"},
+		{"title":"更多功能","img":"/static/images/fl10.png"}
+	],
+
+	"themeTop":[
+		{"img":"/static/images/th2.jpg"},
+		{"img":"/static/images/th3.jpg"},
+		{"img":"/static/images/th4.jpg"},
+		{"img":"/static/images/th5.jpg"}
+	],
+	"themeBottom":[
+		{"img":"/static/images/flx2.jpg"},
+		{"img":"/static/images/flx3.jpg"},
+		{"img":"/static/images/flx4.jpg"},
+		{"img":"/static/images/flx5.jpg"},
+		{"img":"/static/images/flx6.jpg"},
+		{"img":"/static/images/flx7.jpg"},
+		{"img":"/static/images/flx8.jpg"},
+		{"img":"/static/images/flx9.jpg"}
+	]
+
+}

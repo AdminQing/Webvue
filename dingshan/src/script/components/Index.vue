@@ -1,8 +1,10 @@
 <template>
 	<div class="m-index">
 		<header class="yo-header yo-header-a">
-				<h2 class="title">操作区只有图标的头部</h2>
-				<span class="affirm yo-ico">&#xf07e;</span>
+				<span class="regret yo-ico font-w">&#xe609;</span>
+				<input type="search" results="s" class="header-input" placeholder="请输入要搜索的内容"></input>
+				<span class="yo-ico header-right font-w">&#xe686;</span>
+				<span class="affirm yo-ico font-w">&#xe631;</span>
 		</header>
 		<section>
 				<router-view></router-view>
