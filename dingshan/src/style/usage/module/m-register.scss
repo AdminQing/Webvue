@@ -1,0 +1,59 @@
+.register-main{
+  width: 100%;
+  height: 100%;
+  background: #f0f0f0;
+  overflow: hidden;
+  .username,.pwd1,.pwd2,.friend{
+    @include flexbox();
+    width: 3.42rem;
+    height: .48rem;
+    margin: 0 auto;
+    border: .02rem solid #c8c7cc;
+    border-bottom: 0;
+    padding-left: .58rem;
+  }
+  .username{
+    margin-top: .47rem;
+    border-radius: .04rem 0.04rem 0 0;
+    background: url('/static/images/phone.png') no-repeat .17rem .06rem #fff;
+    background-size: .16rem .27rem;
+    border-bottom-width:  .01rem;
+  }
+  .pwd1,.pwd2{
+    background: url('/static/images/text_pass.png') no-repeat .11rem .06rem #fff;
+    background-size: .28rem .29rem;
+  }
+  .friend{
+    border-bottom: .02rem solid #c8c7cc;
+    border-radius: 0 0 .04rem 0.04rem ;
+    background: url('/static/images/pass2_register.png') no-repeat .11rem .11rem #fff;
+    background-size: .26rem .29rem;
+    margin-bottom: .47rem;
+  }
+  .check{
+    margin-left: .28rem;
+    width: 2px solid #d31616;
+  }
+  a{
+    color:#4848fb;
+  }
+  .login1,.login2{
+    width: 3.51rem;
+    height: .41rem;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: .18rem;
+    font-family: "微软雅黑";
+    color: #fff;
+    border: 0;
+  }
+  .login1{
+    margin-top: .35rem;
+    margin-bottom: .12rem;
+    background: #ea2f27;
+  }
+  .login2{
+    background: #2f966e;
+  }
+}

@@ -1,0 +1,106 @@
+.shop-main{
+  @include flex(1);
+  width: 100%;
+  .shop-none{
+    width: 100%;
+    height: 4.19rem;
+    background: #efeff4 url('/static/images/empty_cart.png') no-repeat center .31rem;
+    background-size: 1.41rem 1.44rem;
+    position: relative;
+    p{
+      width: 100%;
+      font-size: .16rem;
+      color: #858585;
+      text-align: center;
+      position: absolute;
+      top:2.03rem;
+    }
+    input{
+      width: 2.11rem;
+      height: .47rem;
+      text-align: center;
+      font-size: .18rem;
+      border: 0;
+      background: #ff0000;
+      color: #fff;
+      border-radius: .05rem;
+      position: absolute;
+      left: 50%;
+      margin-left: -1.05rem;
+      top:2.93rem;
+    }
+  }
+  .line_01{
+  width: 100%;
+  height: .5rem;
+  background: #efeff4;
+  text-align: center;
+  padding: 0 .06rem;
+  line-height: .5rem;
+  div{
+    width: 1.37rem;
+    height: .01rem;
+    background: #bbb;
+    margin-top: .24rem;
+  }
+  .line-left{
+    float:left;
+  }
+  .line-right{
+    float: right;
+  }
+  }
+  .shop-more{
+    background: #fff;
+    ul{
+
+      width: 100%;
+      height: auto;
+      li{
+
+        width: 1.65rem;
+        height: 2.84rem;
+        overflow: hidden;
+        float: left;
+        margin: .14rem .11rem ;
+        font-weight: 700;
+        font-family: "微软雅黑";
+        img{
+          width: 100%;
+          height: 1.64rem;
+        }
+        .shop-name{
+          margin: .25rem 0 .21rem 0;
+          width: 100%;
+          font-size: .14rem;
+          height: .4rem;
+          font-size: .14rem;
+          overflow : hidden;
+          text-overflow: clip;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+        }
+        .shop-price{
+          font-size: .12rem;
+          color: #ff0c22;
+          margin-left: .19rem;
+          line-height: .34rem;
+          float: left;
+        }
+        input{
+          width: .82rem;
+          height: .34rem;
+          background: #ff0c22;
+          color: #fff;
+          font-size: .13rem;
+          float: right;
+          line-height: .34rem;
+          border: 0;
+          border-radius: .03rem;
+        }
+      }
+    }
+
+  }
+}
