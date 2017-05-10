@@ -25,14 +25,30 @@
 		<div class="theme-foo">
 			<img src="/static/images/bont1.png">
 			<div class="foo-img">
-				<p><img src="/static/images/bont2.jpg"></p>
+				<ul>
+					<li class="li-to">
+						<img src="/static/images/bont2.jpg">
+					</li>
+					<li class="li-bo">
+						<ul>
+							<li>
+								<img src="/static/images/bont3.jpg">
+							</li>
+							<li>
+								<img src="/static/images/bont4.jpg">
+								<img src="/static/images/bont5.jpg">
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<!-- <p><img src="/static/images/bont2.jpg"></p>
 				<ul>
 					<li><img src="/static/images/bont3.jpg"></li>
-					<li>
+					<li class="li-t">
 						<img src="/static/images/bont4.jpg">
 						<img src="/static/images/bont5.jpg">
 					</li>
-				</ul>
+				</ul> -->
 			</div>
 		</div>
 	</div>

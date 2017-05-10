@@ -5,13 +5,13 @@
 <template>
 		<div class="m-fenlei">
 			<ul>
-				<router-link tag="li" to="/fen" v-for="(item,index) in fenleiTop" :key="index">
+				<router-link tag="li" :to="`/fen/${index}`" v-for="(item,index) in fenleiTop" :key="index">
 					<img :src="item.img">
 					<span>{{item.title}}</span>
 				</router-link>
 			</ul>
 			<ul>
-				<router-link tag="li" to="/fen" v-for="(item,index) in fenleiBottem" :key="index">
+				<router-link tag="li" :to="`/fen/${index+5}`" v-for="(item,index) in fenleiBottem" :key="index">
 					<img :src="item.img">
 					<span>{{item.title}}</span>
 				</router-link>
@@ -30,7 +30,6 @@
 				fenleiTop:[],
 				fenleiBottem:[]
 			}
-			
 		},
 
 		mounted:function(){

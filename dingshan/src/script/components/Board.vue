@@ -29,6 +29,7 @@
 		</div> -->
 		<Fenlei></Fenlei>
 		<Theme></Theme>
+		<list></list>
 	</div>
 </template>
 
@@ -40,6 +41,7 @@
 	import axios from 'axios'
 	import Fenlei from './Board-feilei'   //分类
 	import Theme from './Board-theme'
+	import list from './index-list'
 	Vue.component(Swipe.name, Swipe)
 	Vue.component(SwipeItem.name, SwipeItem)
 
@@ -67,7 +69,7 @@
 			})
 		},
 		components:{
-			Fenlei,Theme
+			Fenlei,Theme,list
 		}
 	}
 </script>

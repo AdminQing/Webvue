@@ -1,0 +1,43 @@
+#indexLists{
+  overflow: hidden;
+  .rd_tilte{
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+  }
+  .indexLists{
+    @include flexbox();
+    @include flex-wrap(wrap);
+    .indexList{
+      width:50%;
+      overflow: hidden;
+      @include flexbox();
+      @include flex-direction(column);
+      @include box-sizing(border-box);
+      margin-top: .05rem;
+      background-color:#fff;
+      padding:0.05rem;
+      img{
+        width:100%;
+        height:1.8rem;
+      }
+      P{
+        width:100%;
+        color:#666;
+      }
+      .re-price{
+        color: #666;
+        padding: 0 .18rem;
+        span{
+          margin-right: .2rem
+        }
+        .reducePrice{
+          color:#f00f00
+        }
+        .markePrice{
+          text-decoration: line-through;
+        }
+      }
+    }
+  }
+}

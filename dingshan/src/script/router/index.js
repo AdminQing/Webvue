@@ -10,6 +10,9 @@ import Search from '@/script/components/Search'
 import Shop from '@/script/components/Shop'
 import News from '@/script/components/News'
 import Mine from '@/script/components/Mine'
+import Ssk from '@/script/components/Ssk'
+import Fenlei from '@/script/components/Fenlei'
+import Xqy from '@/script/components/Xqy'
 
 Vue.use(Router)
 
@@ -41,7 +44,19 @@ export default new Router({
       	{
       		path:'mine',
       		component:Mine
-      	}
+      	},
+        {
+          path:'ssk',
+          component:Ssk
+        },
+        {
+          path:'fenlei',
+          component:Fenlei
+        },
+        {
+          path:'xqy',
+          component:Xqy
+        }
       ]
     }
   ]

@@ -1,0 +1,39 @@
+@import "../fragment/yo-search";
+
+.search_land{
+	width: 100%;
+	height: 1rem;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+	padding-top: 20px;
+	.hot-search{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		.search_replace{
+			position: absolute;
+			right: 10px;
+			top: 0;
+		}
+		.search-list{
+			position: absolute;
+			top: 0;
+			left: 40px;
+			right: 40px;
+			bottom: 0;
+			ul{
+				width: 100%;
+				height: 100%;
+				li{
+					float: left;
+					padding:1px 10px;
+					border: 1px solid #ccc;
+					border-radius: 10px;
+					background: #fff;
+					margin: 3px;
+				}
+			}
+		}
+	}
+}

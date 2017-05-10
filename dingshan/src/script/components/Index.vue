@@ -2,7 +2,7 @@
 	<div class="m-index">
 		<header class="yo-header yo-header-a">
 				<span class="regret yo-ico font-w">&#xe609;</span>
-				<input type="search" results="s" class="header-input" placeholder="请输入要搜索的内容"></input>
+				<input type="search" results="s" class="header-input" placeholder="请输入要搜索的内容" @click="one"></input>
 				<span class="yo-ico header-right font-w">&#xe686;</span>
 				<span class="affirm yo-ico font-w">&#xe631;</span>
 		</header>
@@ -26,12 +26,17 @@
 				<router-link tag="li" to="/mine" active-class="active" class="yo-ico">
 					<span>&#xe609;<b>我的鼎善</b></span>
 				</router-link>
-				<!-- <li class="yo-ico active">&#xe62d;<b>首页</b></li>
-				<li class="yo-ico">&#xeb89;<b>鼎善客服</b></li>
-				<li class="yo-ico">&#xec0b;<b>购物车</b></li>
-				<li class="yo-ico">&#xe757;<b>新闻资讯</b></li>
-				<li class="yo-ico">&#xe609;<b>我的鼎善</b></li> -->
 			</ul>
 		</nav>
 	</div>
 </template>
+
+<script>
+	export default{
+		methods:{
+			one:function(){
+				location.href='http://localhost:8080/#/ssk'
+			}
+		}
+	}
+</script>
