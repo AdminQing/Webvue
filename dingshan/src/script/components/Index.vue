@@ -14,7 +14,7 @@
 				<router-link tag="li" to="/board" active-class="active" class="yo-ico">
 					<span>&#xe62d;<b>首页</b></span>
 				</router-link>
-				<router-link tag="li" to="/search" active-class="active" class="yo-ico">
+				<router-link tag="li" to="/server" active-class="active" class="yo-ico">
 					<span>&#xeb89;<b>鼎善客服</b></span>
 				</router-link>
 				<router-link tag="li" to="/shop" active-class="active" class="yo-ico">
