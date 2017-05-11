@@ -13,6 +13,8 @@ import Mine from '@/script/components/Mine'
 import Ssk from '@/script/components/Ssk'
 import Fenlei from '@/script/components/Fenlei'
 import Xqy from '@/script/components/Xqy'
+import Login from '@/script/components/Login'
+import Register from '@/script/components/Register'
 
 Vue.use(Router)
 
@@ -58,6 +60,15 @@ export default new Router({
           component:Xqy
         }
       ]
+    },
+    {
+      path:'/login',
+      component:Login
+
+    },
+    {
+      path:'/register',
+      component:Register
     }
   ]
 })

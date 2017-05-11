@@ -11,8 +11,19 @@
 @import "./usage/module/m-ssk.scss";
 /***分类页样式****/
 @import "./usage/module/m-fenlei.scss";
+<<<<<<< HEAD
 /***客服****/
 @import "./usage/module/m-server.scss";
 /***新闻资讯****/
 @import "./usage/module/m-news.scss";
 @import "./usage/module/index-list.scss"
+=======
+
+@import "./usage/module/index-list.scss";
+
+@import "./usage/module/m-login.scss";
+
+@import "./usage/module/m-register.scss";
+
+@import "./usage/module/m-shop.scss";
+>>>>>>> liucheng

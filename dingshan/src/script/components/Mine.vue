@@ -1,5 +1,12 @@
 <template>
-	<div class="mine">
-		我的
+	<div class="mine-main">
+		<dl class="mine-main">
+			<dt></dt>
+		</dl>
 	</div>
 </template>
+<script>
+export default {
+
+}
+</script>

@@ -23,7 +23,7 @@
 				<router-link tag="li" to="/news" active-class="active" class="yo-ico">
 					<span>&#xe757;<b>新闻资讯</b></span>
 				</router-link>
-				<router-link tag="li" to="/mine" active-class="active" class="yo-ico">
+				<router-link tag="li" to="/login" active-class="active" class="yo-ico">
 					<span>&#xe609;<b>我的鼎善</b></span>
 				</router-link>
 			</ul>

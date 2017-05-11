@@ -1,0 +1,90 @@
+@include  yo-header(
+  $bgcolor: #ea2f27,
+  $height:.44rem,
+  $font-size: .21rem,
+  $item-ico-color: #fff,
+  $border-width: 0
+)
+.login-main{
+  width: 100%;
+  height: 100%;
+  background: #f0f0f0;
+  overflow: hidden;
+
+  .login-logo{
+    width: 1.16rem;
+    height: 1.16rem;
+    border-radius: .58rem;
+    background: #fff url('/static/images/applogo.png') no-repeat center;
+    background-size: 80% 80%;
+    margin: 0 auto;
+    margin-top: .24rem;
+    margin-bottom: .46rem;
+  }
+  .username,.pwd,.login1,.login2{
+    @include flexbox();
+    width: 3.42rem;
+    height: .47rem;
+    margin: 0 auto;
+  }
+  .username,.pwd{
+    border:.02rem solid #c8c7cc;
+
+
+    padding-left: .58rem;
+  }
+  .username{
+    border-radius: .04rem 0.04rem 0 0;
+    background: url('/static/images/phone.png') no-repeat .17rem .06rem;
+    background-size: .16rem .27rem;
+    border-bottom-width:  .01rem;
+    margin-bottom:0;
+  }
+  .pwd{
+    border-radius:0 0 .04rem 0.04rem ;
+    background: url('/static/images/text_pass.png') no-repeat .11rem .06rem;
+    background-size: .28rem .29rem;
+    border-top-width:  .01rem;
+    margin-top:0;
+  }
+
+  .check{
+    background: #fff;
+    border: .01rem solid #ccc;
+    border-radius: .02rem;
+    margin: .12rem .08rem .2rem .24rem;
+
+  }
+  .rem{
+    font-size: .13rem;
+    margin-top: .16rem;
+    color: #3d3d3d;
+  }
+  .for{
+    font-size: .15rem;
+    margin: .14rem .16rem 0 0;
+    color: #05c6ce;
+    float: right;
+  }
+  .login1{
+    margin-top: .31rem ;
+    margin-bottom: .12rem;
+    background: #ea2f27;
+  }
+  .login2{
+    background: #2f966e;
+  }
+  .login1,.login2{
+    display: block;
+    text-align: center;
+    font-size: .19rem;
+    color: #fff;
+    border: 0;
+  }
+  .tore{
+    display: block;
+    margin: .24rem 0 0 .18rem;
+    color: #ea4038;
+    font-size: .17rem;
+  }
+}

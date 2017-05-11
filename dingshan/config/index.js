@@ -28,22 +28,37 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-        '/m':{
-            target:'http://m.zwzpy.com',
-            changeOrigin:true,
-            pathRewrite:{
-                '^/m':''
-            }
-        },
+      '/m':{
+          target:'http://m.zwzpy.com',
+          changeOrigin:true,
+          pathRewrite:{
+              '^/m':''
+          }
+      },
 
+<<<<<<< HEAD
         '/mock':{
 	        target:'http://localhost:9000/',
 	        changeOrigin:true,
 	        pathRewrite:{
 	          '^/mock':''
+=======
+     '/mock':{
+        target:'http://localhost:9000/',
+        // changeOrigin:true,
+        pathRewrite:{
+          '^/mock':''
+>>>>>>> liucheng
+        }
+      },
+
+      '/dl':{
+        target:'http://localhost:3000/',
+        changeOrigin:true,
+        pathRewrite:{
+          '^/dl':''
         }
       }
-
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
     // with this option, according to the CSS-Loader README
