@@ -23,7 +23,7 @@
 				<div class="search_replace" @click="shuax">刷新</div>
 				<div class="search-list">
 					<ul>
-						<li v-for="(item,index) in listBB" @click="idbox">
+						<li v-for="(item,index) in listBB" @click="idbox(item.tok_name)">
 							{{item.tok_name}}
 						</li>
 					</ul>
@@ -85,8 +85,19 @@ import utilAxios from '../utils/axios'
  		 			}
  		 		})
  		 	},
- 		 	idbox:function(){
+ 		 	idbox:function(name){
+ 		 		console.log(this)
+ 		 		
+ 		 		// utilAxios.get({
+ 		 		// 	url:'/m/index.php?ac=search_index&keyword='+name,
+ 		 		// 	method:'get',
+ 		 		// 	callback:function(res){
+ 		 		// 		//that.listBB = res.data.lists
+ 		 		// 		console.log(res)
+ 		 		// 	}
+ 		 		// })
  		 		location.href='http://localhost:8080/#/fenlei'
+ 		 			
  		 	}
  		 }
 	}
