@@ -39,7 +39,11 @@ export default new Router({
       	},
       	{
       		path:'news',
-      		component:News
+      		component:News,
+//    		children:[
+//    			path:'newlist/:data',
+//    			component:newlist
+//    		]
       	},
       	{
       		path:'mine',

@@ -34,10 +34,10 @@
                 text-align: center;
                 line-height: 0.3rem;
                 font-size: 0.16rem;
-                border-radius: 0.05rem;
-                &.active span{
+                border-radius: 0.05rem;   
+            }
+            &.active{
                     color: #9da19e;
-                }
             }
         }
     }
