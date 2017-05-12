@@ -9,5 +9,15 @@ export default {
     .then(function (res) {
       param.callback(res)
     })
+  },
+  post:(param)=>{
+    axios({
+      url:param.url,
+      method:param.method,
+      responseType:param.type
+    })
+    .then(function (res) {
+      param.callback(res)
+    })
   }
 }

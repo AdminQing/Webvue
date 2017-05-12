@@ -13,7 +13,7 @@ import Mine from '@/script/components/Mine'
 import Ssk from '@/script/components/Ssk'
 import Fenlei from '@/script/components/Fenlei'
 import Xqy from '@/script/components/Xqy'
-
+import Datils from '@/script/components/datils'
 Vue.use(Router)
 
 
@@ -58,6 +58,10 @@ export default new Router({
           component:Xqy
         }
       ]
+    },
+    {
+      path:'/datils/:data',
+      component:Datils
     }
   ]
 })

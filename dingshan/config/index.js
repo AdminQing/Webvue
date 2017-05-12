@@ -36,13 +36,21 @@ module.exports = {
             }
         },
 
-         '/mock':{
+        '/mock':{
         target:'http://localhost:9000/',
-        // changeOrigin:true,
+        changeOrigin:true,
         pathRewrite:{
           '^/mock':''
         }
-      }
+      },
+
+      '/www':{
+       target:'http://www.zwzpy.com',
+       changeOrigin:true,
+       pathRewrite:{
+         '^/www':''
+       }
+     }
 
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"

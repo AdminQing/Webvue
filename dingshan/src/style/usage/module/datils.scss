@@ -1,0 +1,32 @@
+#datils{
+  overflow: hidden;
+  width:100%;
+  background:#ececec;
+  .datilsImg{
+    width:100%;
+    height:3.75rem;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+  .datilsTxt{
+    width:100%;
+    height:.65rem;
+  }
+  .d_url{
+    height:.6rem;
+    width:100%;
+  }
+  .datailChose{
+    height:.3rem;
+  }
+  .datail{
+    height:.6rem;
+    background:#fff;
+  }
+  .datailOther{
+    height:.75rem;
+    background:#fff;
+  }
+}
