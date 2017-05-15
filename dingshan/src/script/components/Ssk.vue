@@ -37,7 +37,7 @@
 import Vue from 'vue'
 import { Indicator } from 'mint-ui'
 import utilAxios from '../utils/axios'
-	
+
 	export default{
 		data(){
 			return {

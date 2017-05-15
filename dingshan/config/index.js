@@ -36,13 +36,14 @@ module.exports = {
           }
       },
 
-     '/mock':{
-        target:'http://localhost:9000/',
-        // changeOrigin:true,
-        pathRewrite:{
-          '^/mock':''
-        }
-      },
+
+        '/mock':{
+	        target:'http://localhost:9000/',
+	        changeOrigin:true,
+	        pathRewrite:{
+	          '^/mock':''
+          }
+        },
 
       '/dl':{
         target:'http://localhost:3000/',

@@ -1,0 +1,20 @@
+.m-server {
+    width: 100%;
+    ul {
+        width: 100%;
+        li {
+            width: 100%; 
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        li:nth-child(4) > p {
+            font-size: .14rem;
+            color: red;
+            background: #fff;
+            padding: 0.2rem;
+            margin-bottom: 0.1rem
+        }
+    }
+}
